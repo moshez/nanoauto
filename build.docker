@@ -14,4 +14,4 @@ VOLUME /application
 
 ENTRYPOINT . /appenv/bin/activate; \
            cd /application; \
-           pip wheel -r requirements.txt
+           pip wheel .
