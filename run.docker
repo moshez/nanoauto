@@ -1,4 +1,4 @@
-FROM ncolony-example-base
+FROM nanoauto-base
 
 ADD wheelhouse /wheelhouse
 RUN . /appenv/bin/activate; \

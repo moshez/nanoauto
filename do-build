@@ -1,0 +1,4 @@
+set -e
+docker run --rm -v `pwd`:/application -v `pwd`/wheelhouse:/wheelhouse nanoauto-build
+docker build -t nanoauto--run -f run.docker .
+docker run --rm -it -p 8080:8080 nanoauto-run

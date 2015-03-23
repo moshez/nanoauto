@@ -1,5 +1,5 @@
 # build.docker
-FROM ncolony-example-base
+FROM nanoauto-base
 
 RUN apt-get install -qy libffi-dev libssl-dev pypy-dev
 RUN . /appenv/bin/activate; \
